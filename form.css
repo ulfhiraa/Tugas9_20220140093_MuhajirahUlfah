@@ -1,0 +1,33 @@
+body{
+    margin:0 auto;
+    font-family: sans-serif;
+    background-color:  rgb(244, 243, 238);
+}
+
+form{
+    width: 100%;
+}
+
+legend{
+    text-align: center;
+}
+
+.back, a{
+    margin-top: 5px;
+    background-color: rgb(255, 239, 250);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 45px;
+    height: 12px;
+    border: transparent;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Memberikan nilai z-index lebih tinggi agar tombol Home muncul di atas elemen lain */
+    border: 1px solid black; /* Menambahkan border */
+    padding: 5px 10px; /* Memberikan ruang di dalam tombol */
+    background-color: white; /* Mengatur warna latar belakang */
+}

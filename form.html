@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="form.css"></head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir Data Diri</legend>
+
+                <p>Nama : <input type="text" name="nama"></p>
+                <p>NIM  : <input type="text" name="nim"></p>
+                <p>Asal : <input type="text" name="asal"></p>
+            <p>
+                Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki" checked />
+                    Laki-laki
+                <input type="radio" name="jk" value="perempuan" checked />
+                    Perempuan
+            </p>
+            <p>
+                Bahasa Pemrograman yang dikuasai : <br>
+                    <input type="checkbox" name="web"> Web
+                    <input type="checkbox" name="web"> Mobile
+                    <input type="checkbox" name="web"> Desktop
+            </p>
+            <P>
+                Peminatan :
+                <select>
+                    <option>Jaringan</option>
+                    <option>Database</option>
+                    <option>Pemrograman</option>
+                    <option>UI/UX</option>
+                </select>
+            </P>
+            <p>
+                Alasan Anda memilih Program Studi Teknologi Informasi? :<br>
+                <textarea rows='10' cols='60' placeholder="Tulis jawaban Anda disini"></textarea>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+
+<button class="back, text-center"><a href="index.html">Home</a></button>
+
+</body>
+</html>
